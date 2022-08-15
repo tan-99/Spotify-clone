@@ -1,0 +1,276 @@
+/*.phoneimg{
+    width: 230px;
+}*/
+
+
+
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Gotham', sans-serif;
+    color: white;
+    background-color: black;
+    z-index: 100;
+    position : static;
+    left : 0;
+    right : 0;
+    margin : 0px;
+}
+
+.logo{
+    background-color: pink;
+    width:50px;
+    height: 50px;
+    margin-right: 6px;
+    margin-bottom: 3px;
+}
+
+.left-section{
+     flex: 1;
+     display: flex;
+     align-items: center;
+     margin-left: 52px;
+}
+
+.psd{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 11x;
+    /*background-color: lightblue;*/
+    margin-right: 5px;
+    margin-bottom: 7px;
+    min-width: 425px;
+}
+
+.psd a{
+    margin-left: 45px;
+}
+
+.psd a:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.psd a:active{
+    opacity: 0.7;
+}
+
+sup{
+    color: rgb(171,171,171);
+    font-size:16.02px;
+}
+
+.download{
+    margin-right: 45px;
+}
+
+.name{
+    font-size: 36px;
+}
+
+/*main body*/
+
+.mobile{
+    height : 450px;
+    /*width : 230px;/*/
+    
+}
+
+.motto{
+
+    font-family :'Gotham', sans-serif;
+    font-size: 22px;
+    line-height: 43px;
+    
+}
+
+.motto h2{
+
+    color : white;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+.mainbody{
+
+    display : flex;
+    align-items : center;
+    justify-content: space-between;
+    padding-top : 100px;
+    padding-left: 90px;
+    padding-right : 130px;
+    padding-bottom : 40px;
+    margin-bottom: 30px;
+}
+
+.loginformdiv{
+
+    background-color: white;
+    padding : 3.5%;
+    border-radius: 2.5px;
+}
+.profilediv{
+
+    font-family: 'Gotham', sans-serif;
+    font-size : 15px;
+    font-weight : 700;
+    display: flex;
+    flex-direction : column;
+    
+
+}
+/*font-family: 'Gotham', sans-serif;
+font-family: 'Gotham Black', sans-serif;
+font-family: 'Gotham Light', sans-serif;
+font-family: 'Gotham Thin', sans-serif;
+font-family: 'Gotham XLight', sans-serif;
+font-family: 'Gotham Book', sans-serif;
+font-family: 'Gotham Ultra', sans-serif;
+
+*/
+
+.userinfodiv input{
+
+    width : 372px;
+    height: 40px;
+    border-radius : 5px;
+    border : solid;
+    border-width: 1px;
+    border-color : grey;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.Log-in p{
+    font-weight : bold;
+    margin-bottom : 0px;
+    margin-top : 0px;
+}
+
+.info-questions{
+    margin-bottom : 4px;
+}
+
+/*.termsdiv{
+
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+}*/
+
+
+/*a{
+    font-family : Arial, Helvetica, sans-serif;
+}*/
+
+.termsdiv a{
+    color: #1ed760;
+    font-size: 10px;
+}
+
+.policy{
+
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.termsdiv{
+
+    align-self: center;
+  
+}
+
+.termsdiv p{
+
+    width : 380px;
+    font-size: 10px;
+    text-align : center;
+    display : block;
+    margin-left : 0px;
+}
+
+button {
+
+    border-radius: 60px;
+    font-family: 'Gotham', sans-serif;
+    color: #000000;
+    font-size: 19px;
+    font-weight : 600;
+    background: #1ed760;
+    padding: 10px 40px 10px 40px;
+    width : 320px;
+    text-decoration: none;
+    border : none;
+    height : 55px;
+    margin-bottom : 30px;
+    cursor : pointer;
+}
+
+/*FOOTER Starts*/
+
+.footer{
+
+    background-color :  black;
+    padding-top : 40px;
+    display : flex;
+    align-items: flex-start;
+    justify-content :space-between;
+    padding-bottom : 75px;
+}
+
+.last-logo{
+    display : flex;
+    align-items: center;
+    padding-left: 110px;
+}
+
+.last-logo img{
+    height : 40px;
+    width : 40px;
+    margin-right: 6px;
+}
+
+.last-logo h1{
+    color : white;
+    font-family: 'Gotham', sans-serif;
+    font-size: 33px;
+
+}
+
+.last-logo sup{
+    color : grey;
+}
+
+.footer{
+    font-family: 'Gotham', sans-serif;
+}
+
+.title h2{
+    font-weight :400;
+    color : #ABABAB;
+}
+
+.company-menu, .links-menu h3{
+    color : white;
+}
+
+.useful-links{
+
+    padding-right : 160px;
+    
+}
+
+.company{
+
+    padding-left : 80px;
+}
+
+.footer a:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+.footer a:active{
+    opacity: 0.7;
+}
+

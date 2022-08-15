@@ -1,0 +1,9 @@
+body{
+    margin-bottom: 0px;
+    background-color: rgb(23,17,17);
+}
+
+p{
+    font-family: 'Gotham', sans-serif;
+    display : inline-block;
+}
